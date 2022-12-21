@@ -9,7 +9,7 @@ export default function App() {
           savimasima
         </header>
         <main>
-          <Dictionary />
+        <Dictionary defaultKeyword="" />
         </main>
         <footer className="App-footer">
           <small>Coded by savimasima</small>

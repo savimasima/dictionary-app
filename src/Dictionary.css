@@ -9,15 +9,32 @@
     padding: 30px;
     border-radius: 6px;
     box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
-    margin: 20px 0;
+    margin: 20px auto;
+    max-width: 70%;
 }
   
 .Dictionary input {
-    width: 100%;
+    width: 75%;
     border-radius: 6px;
     padding: 6px 10px;
     color: #333;
     border: 1px solid #ddd;
+}
+
+.Dictionary button {
+    width: 20%;
+    text-align: center;
+    border: none;
+    color: #fff;
+    background-color: #000;
+    opacity: 70%;
+    margin-left: 5px;
+    padding: 8px 0;
+    border-radius: 6px;
+}
+
+.Dictionary button:hover {
+    opacity: 100%;
 }
   
 .Dictionary .hint {
